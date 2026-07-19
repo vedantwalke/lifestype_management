@@ -1,0 +1,71 @@
+SNEAKER ANALYSIS PROJECT - INSTRUCTIONS LOG
+Repo: vedantwalke/lifestype_management
+Folder: sneaker_search (source screenshots) / analysis_documents (outputs)
+Log started: 19 Jul 2026
+
+------------------------------------------------------------
+INSTRUCTION 1
+------------------------------------------------------------
+"We are trying to analyse which sneaker is the best for me.
+For this you will have to check the repo vedantwalke/lifestype_management.
+It will have screenshots of the sneaker which I will keep updating.
+You will have compare the sneakers and suggest which one is the best one for me.
+In the output I also need a .xlsx file which will compare all the sneakers. All
+the instructions that i give in the chat should also be returned in a .txt file.
+I will upload the .xlsx and .txt file to the repo manually.
+you will have to refer to these files for future references.
+Also compare the prices of these sneakers across various websites to tell me
+which website have the best offer, and from where should i buy the sneaker."
+
+Key requirements extracted:
+- Monitor the GitHub repo's sneaker_search folder for new sneaker screenshots (ongoing/updating).
+- Compare all sneakers found and recommend the best one.
+- Produce a .xlsx comparing all sneakers.
+- Produce a .txt logging every instruction given in chat (this file).
+- User will manually upload the .xlsx/.txt to the repo.
+- Claude should refer back to these files for future context/continuity.
+- Compare sneaker prices across various websites and identify the best offer /
+  where to buy.
+
+------------------------------------------------------------
+INSTRUCTION 2
+------------------------------------------------------------
+"I have added the filesystem extension. the github repo is cloned at the
+location E:\Data_Backup\9_Lifestyle\1_Github\lifestype_management\sneaker_search
+add the .xlsx and .txt file in a new folder analysis_documents"
+
+Key requirements extracted:
+- Repo is cloned locally at:
+  E:\Data_Backup\9_Lifestyle\1_Github\lifestype_management\sneaker_search
+- Create a new folder named "analysis_documents" (sibling to sneaker_search,
+  inside the lifestype_management repo root) and place the .xlsx and .txt
+  output files there.
+
+------------------------------------------------------------
+INSTRUCTION 3
+------------------------------------------------------------
+"Add the below instructions to the .txt file.
+My shoe size is UK 7. Also attach the links to the website with the best deal
+so that I can check it there.
+Also keep checking for price updates and recommend if I should wait for any
+particular sale if there is any coming in the future.
+Update the xlsx accordingly."
+
+Key requirements extracted:
+- User's shoe size is UK 7.
+- Include direct links to the best-deal website/listing for each sneaker in
+  the output, so the user can check/buy there directly.
+- Keep checking for price updates over time and recommend whether to wait for
+  an upcoming sale (if one is coming) rather than buy now.
+- Update the .xlsx to reflect all of the above.
+
+------------------------------------------------------------
+Sneakers identified in sneaker_search folder as of this log (best-effort read
+from screenshots, not user-confirmed):
+1. Adidas Originals Campus 00s - Black/White/Off White (Tata CLiQ Luxury screenshot)
+2. Nike Air Max Solo - UK 8 (Myntra screenshot)
+3. Nike Dunk Low SE "Monsoon Blue" - Armory Navy/Summit White - UK 6
+   (Culture Circle marketplace screenshot, seller: DSWT)
+
+User shoe size: UK 7
+------------------------------------------------------------
