@@ -60,6 +60,39 @@ Key requirements extracted:
 - Update the .xlsx to reflect all of the above.
 
 ------------------------------------------------------------
+INSTRUCTION 4
+------------------------------------------------------------
+"add xlsx file to the analysis_documents folder as well. Add this as
+instruction in the .txt file as well."
+
+Key requirements extracted:
+- Place the .xlsx file itself directly into the analysis_documents folder
+  (not just share it for manual download), same as the .txt file.
+- Log this instruction in the .txt file.
+
+Note on execution (superseded by Instruction 5 below): the filesystem tool
+initially available in this chat could only write plain text to the user's
+local disk - it had no way to write binary files like .xlsx.
+
+------------------------------------------------------------
+INSTRUCTION 5
+------------------------------------------------------------
+"can you save .csv file instead of .txt file?" -> clarified to mean: export
+the sneaker comparison workbook (xlsx) sheets as .csv files instead, so they
+can be written directly to disk.
+
+Key requirements extracted:
+- Export each xlsx sheet as its own .csv file (Sneaker_Comparison.csv,
+  Price_Comparison.csv, Final_Recommendation.csv, Upcoming_Sales.csv).
+- Write these .csv files directly into analysis_documents (this is possible
+  since .csv is plain text, unlike .xlsx).
+- The instructions_log.txt itself remains a .txt file (only the workbook
+  export format changed to .csv).
+- Going forward, .xlsx will still be shared for download/manual save if an
+  Excel-native file (formulas, formatting, hyperlinks) is wanted, but .csv
+  versions can be written directly to analysis_documents on every update.
+
+------------------------------------------------------------
 Sneakers identified in sneaker_search folder as of this log (best-effort read
 from screenshots, not user-confirmed):
 1. Adidas Originals Campus 00s - Black/White/Off White (Tata CLiQ Luxury screenshot)
